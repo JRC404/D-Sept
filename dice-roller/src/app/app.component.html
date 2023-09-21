@@ -1,0 +1,6 @@
+<h1>Dice Roller</h1>
+
+<button (click)="rollDice()">Roll the dice</button>
+
+<p>Number rolled: {{ rollDice() }}</p>
+<img [src]="diceImage" *ngIf="diceImage" alt="Dice Result">

@@ -1,0 +1,11 @@
+<h1>{{ title }} Application</h1>
+
+<input type="text" [(ngModel)]="newItem" (keydown.enter)="addItem()">
+<button (click)="addItem()">Add Item</button>
+
+<ul>
+  <li *ngFor="let item of items; let i = index">
+    {{ item }}
+    <button (click)="removeItem(i)">Remove</button>
+  </li>
+</ul>
