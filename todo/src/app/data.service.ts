@@ -22,11 +22,4 @@ export class DataService {
     }
   }
 
-  updateData(oldItem: string, newItem: string): void {
-    const index = this.data.indexOf(oldItem);
-    if (index !== -1) {
-      this.data[index] = newItem;
-    }
-  }
-
 }

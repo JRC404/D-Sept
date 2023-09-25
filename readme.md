@@ -221,7 +221,61 @@ ng generate service data
 
 * To make an API call, we need to import the HttpClientModule into our app.module.ts
 
-* Lifecycle Hooks
+## Lifecycle Hooks
+
+* ngOnChanges
+    * We use this when our component needs to react to changes in input properties: usernames, values given to the component from the user
+```ts
+ngOnChanges(changes: SimpleChanges) {
+    if('inputData' in changes) {
+        this.processChange(changes.inputData.currentValue)
+    }
+}
+```
+
+* ngOnInit
+    * This hook is only called once - it is called when the component is initialised. We use it to set properties and attributes with values
+    * Fetch initial data to be used in the component
+    * Why would we fetch data at the start of the component?
+        * If the page depends on the data?
+* ngDoCheck
+* ngAfterContentInit
+    * Use this hook to perform actions after we project content onto the component's view
+* ngAfterContentChecked
+    * It is called after every check of the component's content
+    * Ensuring the data is pulled through correctly
+* ngOnDestroy
+    * Used to destroy components, subscriptions, event listeners and timers + more to reduce the risk of memory leaks / issues
+
+## Subscriptions
+
+* HTTP requests:
+    * We may have multiple HTTP requests needed to happen at the same time
+    * Subscriptions allow us to use multiple requests using asynchronous data to handle and respond to data
+
+* Allow us to prevent memory leaks and issues by destroying elements that are no longer needed. 
+
+* Error Handling to allow processes to continue when an error occurs
+    * Is essential for allowing applications to continue when there is an issue
+
+* Real-time data updates
+    * We want to work with real-life data and receive updates from servers to give the user the most up-to-date information possible to then give them the best experience possible
+
+## Challenge
+
+* What do we need to do to build a calculator?
+    * Input from a user
+        * Simple text box?
+        * Buttons?
+    * Understand the formula of the operations:
+        * Addition, subtraction, multiplication, division
+    * Display the result
+    * Reset the calculator
+    * Show the user what they have pressed
+    * Accepting keyboard presses for the numbers? I like it.
+    * Continuing calculations from the previous
+        * Previous answer variable
+
 * Services
 * RxJS
 * Testing

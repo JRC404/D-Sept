@@ -39,14 +39,6 @@ export class AppComponent {
     this.updatedItem = this.items[index];
   }
 
-  updateItem(): void {
-    if (this.updatedItem.trim() !== '') {
-      this.dataService.updateData(this.items[this.editingIndex], this.updatedItem);
-      this.items = this.dataService.getData();
-      this.editingIndex = -1; // Reset editing index
-      this.updatedItem = ''; // Clear the input field after updating
-    }
-  }
 
   @HostListener('document:keydown.enter')
   onEnterKey(): void {

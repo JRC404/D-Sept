@@ -1,0 +1,18 @@
+<h1>Star Wars</h1>
+
+<ol>
+  <li *ngFor="let person of people">
+    <h3>{{ person.name }}</h3>
+    <p>Height: {{ person.url }}</p>
+    <p>Height: {{ person.height }}</p>
+    <p>Mass: {{ person.mass}}</p>
+    <button (click)="loadFilm(person.films[0])">Load Film</button>
+  </li>
+</ol>
+
+<div *ngIf="selectedFilm">
+  <h3>{{ selectedFilm.title }}</h3>
+  <p>Director: {{ selectedFilm.director}}</p>
+  <p>Release Date: {{ selectedFilm.release_date }}</p>
+  <p>Opening Crawl: {{ selectedFilm.opening_crawl }}</p>
+</div>
