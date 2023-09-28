@@ -1,0 +1,14 @@
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\bin\Debug\net7.0\Swapi-sharp.exe
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\bin\Debug\net7.0\Swapi-sharp.deps.json
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\bin\Debug\net7.0\Swapi-sharp.runtimeconfig.json
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\bin\Debug\net7.0\Swapi-sharp.dll
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\bin\Debug\net7.0\Swapi-sharp.pdb
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\Swapi-sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\Swapi-sharp.AssemblyInfoInputs.cache
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\Swapi-sharp.AssemblyInfo.cs
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\Swapi-sharp.csproj.CoreCompileInputs.cache
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\Swapi-sharp.dll
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\refint\Swapi-sharp.dll
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\Swapi-sharp.pdb
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\Swapi-sharp.genruntimeconfig.cache
+C:\Users\jrcooper\OneDrive - Firebrand Training Limited\Desktop\D-Sept\Swapi-sharp\obj\Debug\net7.0\ref\Swapi-sharp.dll
